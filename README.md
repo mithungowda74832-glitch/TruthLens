@@ -1,6 +1,10 @@
 # TruthLens — Evidence-Based AI Claim Verification Platform
 
 **TruthLens** is an evidence-first claim verification platform engineered to replace opaque "True/False" verdicts with verifiable scientific and empirical grounding.
+## 🚀 Live Demo
+
+**Try TruthLens:**  
+https://truth-lens-omega-eight.vercel.app/
 
 ---
 
