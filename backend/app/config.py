@@ -35,6 +35,9 @@ class Settings:
         "https://truthlens-backend-uj3z.onrender.com",
         "http://localhost:5176",
         "http://127.0.0.1:5176",
+        "https://truth-lens-omega-eight.vercel.app",
+"https://www.truth-lens-omega-eight.vercel.app",
+    
     ]
     
     def reload_env(self) -> None:
