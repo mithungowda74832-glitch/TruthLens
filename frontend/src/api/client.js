@@ -3,7 +3,7 @@
  * Connects frontend to FastAPI verification and history endpoints.
  */
 
-const API_BASE = '/api';
+const API_BASE = 'https://truthlens-backend-uj3z.onrender.com/api';
 
 /**
  * Submits a factual claim to the verification pipeline.

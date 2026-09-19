@@ -32,6 +32,9 @@ class Settings:
         "http://127.0.0.1:5174",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://truthlens-backend-uj3z.onrender.com",
+        "http://localhost:5176",
+        "http://127.0.0.1:5176",
     ]
     
     def reload_env(self) -> None:
