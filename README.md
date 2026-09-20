@@ -1,6 +1,6 @@
 # TruthLens — Evidence-Based AI Claim Verification Platform
 
-**TruthLens** is an evidence-first claim verification platform engineered to replace opaque "True/False" verdicts with verifiable scientific and empirical grounding.
+**TruthLens** is an evidence-first claim verification platform **TruthLens** is an evidence-based claim verification platform that helps users assess online claims using retrieved evidence, transparent reasoning, and source references.
 ## 🚀 Live Demo
 
 **Try TruthLens:**  
@@ -23,7 +23,7 @@ https://truth-lens-omega-eight.vercel.app/
 4. **Hackathon & Production Ready Architecture**:
    - Clean separation of frontend UI, backend API, search retrieval services, and AI reasoning synthesis.
    - Built-in heuristic knowledge engine runs out-of-the-box before external API keys are configured.
-   - Pluggable connectors for **Tavily**, **Serper (Google)**, and **Google Gemini 1.5/2.0**.
+   - Pluggable connectors for **Tavily**, **Serper (Google)**, and **Google Gemini**.
 
 ---
 
@@ -88,7 +88,7 @@ cd backend
 
 # Run FastAPI backend
 python run_backend.py
-# Backend starts at: http://127.0.0.1:8000
+vite.config.js             # Vite development configuration
 # Interactive OpenAPI documentation: http://127.0.0.1:8000/docs
 ```
 
@@ -101,9 +101,10 @@ cd frontend
 # Install dependencies (if not already installed)
 npm install
 
-# Start Vite dev server
+# Start Vite development server
 npm run dev
-# Frontend starts at: http://localhost:5174
+
+# Vite will display the local URL in the terminal.
 ```
 
 ---
@@ -113,11 +114,11 @@ npm run dev
 TruthLens is designed so you can add real API keys with zero architectural rework:
 
 1. **Evidence Search Retrieval**:
-   - File: [`backend/app/services/search_service.py`](file:///c:/Users/Mithun/Documents/SNPSU%20FILES/devangers/backend/app/services/search_service.py)
+   - File: - File: [`backend/app/services/search_service.py`](backend/app/services/search_service.py)
    - Keys: Set `TAVILY_API_KEY` or `SERPER_API_KEY` in `backend/.env`.
    - The service automatically detects active keys and routes queries to live web search.
 2. **AI & LLM Reasoning Synthesis**:
-   - File: [`backend/app/services/llm_service.py`](file:///c:/Users/Mithun/Documents/SNPSU%20FILES/devangers/backend/app/services/llm_service.py)
+   - File: - File: [`backend/app/services/llm_service.py`](backend/app/services/llm_service.py)
    - Keys: Set `GEMINI_API_KEY` in `backend/.env`.
    - The service will automatically prompt Gemini for nuanced stance classification and narrative explanations.
 
